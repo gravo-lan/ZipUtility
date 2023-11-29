@@ -3,7 +3,7 @@ import java.util.zip.*;
 
 class Main {
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         if (args.length!=2) {
             System.out.println("Usage: GZip [Source] [Iterations]");
             return;
